@@ -2,7 +2,7 @@
   "name": "class",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://gmdmsdud.github.io/myhome3",
+ 
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
@@ -10,7 +10,7 @@
     "lint": "next lint",
     "generate": "graphql-codegen",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b main -d build"
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
@@ -58,5 +58,6 @@
   },
   "resolutions": {
     "@types/react": "17.0.2"
-  }
+  },
+  "homepage": "http://gmdmsdud.github.io/myhome3/"
 }
