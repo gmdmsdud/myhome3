@@ -9,8 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "generate": "graphql-codegen",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+   
+    "deploy": "gh-pages -d public"
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
